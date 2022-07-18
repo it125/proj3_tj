@@ -146,6 +146,10 @@ table {
     font-style: normal;
 }
 
+.wrap {
+  width: 100%;
+}
+
 /* header */
 #header {
   width: 100%;

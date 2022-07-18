@@ -74,6 +74,7 @@
 }
 
 #section03 .s03-inner {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
@@ -110,6 +111,12 @@
 #section03 .s03-inner .s03-contents ul {
     display: flex;
     flex-wrap: nowrap;
+}
+
+#section03 .s03-inner .s03-content img {
+    width: 100%;
+    height: auto;
+
 }
 
 #section03 .s03-inner .s03-contents ul .s03-content {
