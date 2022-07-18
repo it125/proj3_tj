@@ -134,7 +134,7 @@
 
 #section04 .s04-contents .s04-background1 {
     background: url('../src/s04-1.jpg') 0 -50px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,7 +142,7 @@
 
 #section04 .s04-contents .s04-background2 {
     background: url('../src/s04-2.jpg') 0 -50px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -150,7 +150,7 @@
 
 #section04 .s04-contents .s04-background3 {
     background: url('../src/s04-3.jpg') 0 -50px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,7 +158,7 @@
 
 #section04 .s04-contents .s04-background4 {
     background: url('../src/s04-4.jpg') 0 -50px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
