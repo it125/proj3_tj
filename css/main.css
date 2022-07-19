@@ -6,7 +6,7 @@
 /* section02 */
 #section02 {
     width: 100%;
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 #section02 .s02-inner {
@@ -17,6 +17,17 @@
 
 #section02 .s02-inner .s02-title {
     margin-bottom: 60px;
+}
+
+#section02 .s02-inner .s02-title::after {
+    content: '';
+    width: 100%;
+    left: 0;
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    border-bottom: 3px solid #138d52;
 }
 
 #section02 .s02-inner .s02-title p {
@@ -69,7 +80,7 @@
 /* section03 */
 #section03 {
     width: 100%;
-    padding: 100px 0;
+    padding: 0 0 150px;
     position: relative;
 }
 
@@ -83,6 +94,18 @@
 #section03 .s03-inner .s03-title {
     margin-bottom: 60px;
 }
+
+#section03 .s03-inner .s03-title::after {
+    content: '';
+    width: 100%;
+    left: 0;
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    border-bottom: 3px solid #138d52;
+}
+
 
 #section03 .s03-inner .s03-title p {
     font-family: 'Cafe24Ssurround', sans-serif;
@@ -127,7 +150,7 @@
 /* section04 */
 #section04 {
     width: 100%;
-    padding: 100px 0;
+    padding: 0 0 150px;
 }
 
 #section04 .s04-contents {
