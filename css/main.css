@@ -136,6 +136,8 @@
 #section03 .s03-inner .s03-contents ul {
     display: flex;
     flex-wrap: nowrap;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #section03 .s03-inner .s03-content img {
