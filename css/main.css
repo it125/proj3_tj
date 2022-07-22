@@ -133,21 +133,27 @@
     transform: translateY(-50%);
 }
 
+#section03 .s03-inner .s03-contents {
+    position: relative;
+    overflow-x: hidden;
+    width: 500px;
+    margin: auto;
+}
+
 #section03 .s03-inner .s03-contents ul {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 80%;
-    margin: 0 auto;
+    /* display: flex;
+    flex-wrap: nowrap; */
+    width: 2500px;
 }
 
 #section03 .s03-inner .s03-content img {
-    width: 100%;
     height: auto;
-
 }
 
 #section03 .s03-inner .s03-contents ul .s03-content {
-    flex: 1;
+    display: table;
+    float: left;
+    /* flex: 1; */
 }
 
 
