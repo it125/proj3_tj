@@ -20,7 +20,7 @@
 }
 
 #section02 .s02-inner .s02-title::after {
-    content: '';
+    content: "";
     width: 5rem;
     height: 1px;
     display: block;
@@ -32,15 +32,13 @@
 }
 
 #section02 .s02-inner .s02-title p {
-    font-family: 'Cafe24Ssurround', sans-serif;
+    font-family: "Cafe24Ssurround", sans-serif;
     color: #d39c5b;
     font-size: 2rem;
 }
 
 #section02 .s02-inner .s02-content {
-    
 }
-
 
 #section02 .s02-inner .s02-contents ul {
     overflow: hidden;
@@ -61,7 +59,7 @@
 }
 
 #section02 .s02-inner .s02-contents .s02-content figure {
-    background: #F4ECE2;
+    background: #f4ece2;
     width: 200px;
     height: 200px;
     border-radius: 30px;
@@ -74,7 +72,7 @@
 
 #section02 .s02-inner .s02-contents .s02-content p {
     transform: translateY(-500%);
-    font-family: 'Cafe24Ssurround', sans-serif;
+    font-family: "Cafe24Ssurround", sans-serif;
     font-size: 1.3rem;
 }
 
@@ -97,7 +95,7 @@
 }
 
 #section03 .s03-inner .s03-title::after {
-    content: '';
+    content: "";
     width: 5rem;
     height: 1px;
     display: block;
@@ -108,9 +106,8 @@
     border-bottom: 4px solid #d39c5b;
 }
 
-
 #section03 .s03-inner .s03-title p {
-    font-family: 'Cafe24Ssurround', sans-serif;
+    font-family: "Cafe24Ssurround", sans-serif;
     color: #d39c5b;
     font-size: 2rem;
 }
@@ -158,7 +155,6 @@
     /* flex: 1; */
 }
 
-
 /* section04 */
 #section04 {
     width: 100%;
@@ -175,14 +171,14 @@
 }
 
 #section04 .s04-contents .s04-background1 {
-    background: url('../src/s04-1.jpg') 0 -50px;
+    background: url("../src/s04-1.jpg") 0 -50px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #section04 .s04-contents .s04-background1::after {
-    content: '';
+    content: "";
     width: 100%;
     height: 100%;
     display: block;
@@ -193,14 +189,14 @@
 }
 
 #section04 .s04-contents .s04-background2 {
-    background: url('../src/s04-2.jpg') 0 -50px;
+    background: url("../src/s04-2.jpg") 0 -50px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #section04 .s04-contents .s04-background2::after {
-    content: '';
+    content: "";
     width: 100%;
     height: 100%;
     display: block;
@@ -211,14 +207,14 @@
 }
 
 #section04 .s04-contents .s04-background3 {
-    background: url('../src/s04-3.jpg') 0 -50px;
+    background: url("../src/s04-3.jpg") 0 -50px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #section04 .s04-contents .s04-background3::after {
-    content: '';
+    content: "";
     width: 100%;
     height: 100%;
     display: block;
@@ -229,14 +225,14 @@
 }
 
 #section04 .s04-contents .s04-background4 {
-    background: url('../src/s04-4.jpg') 0 -50px;
+    background: url("../src/s04-4.jpg") 0 -50px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #section04 .s04-contents .s04-background4::after {
-    content: '';
+    content: "";
     width: 100%;
     height: 100%;
     display: block;
@@ -255,11 +251,10 @@
 }
 
 #section04 .s04-contents .s04-title p {
-    font-family: 'Cafe24Ssurround', sans-serif;
+    font-family: "Cafe24Ssurround", sans-serif;
     font-size: 1.8rem;
     color: #fff;
 }
-
 
 #section04 .s04-contents .s04-go {
     position: absolute;
@@ -271,4 +266,17 @@
 
 #section04 .s04-contents .s04-go img {
     opacity: 70%;
+}
+
+/* 반응형 */
+
+/* PC (해상도 1024px)*/
+@media all and (min-width: 1024px) {
+}
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
+@media all and (max-width: 767px) {
 }

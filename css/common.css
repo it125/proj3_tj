@@ -1,17 +1,17 @@
 @charset "UTF-8";
 /* reset */
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 a {
-  text-decoration: none;
-  color: #000;
+    text-decoration: none;
+    color: #000;
 }
 
 img {
-  border: 0;
+    border: 0;
 }
 
 html,
@@ -89,12 +89,12 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -109,62 +109,62 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
 body {
-  line-height: 1;
+    line-height: 1;
 }
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
-  content: none;
+    content: "";
+    content: none;
 }
 table {
-  border-collapse: collapse;
+    border-collapse: collapse;
 }
 
 /* font */
 @font-face {
-  font-family: "Ramaraja";
-  src: url("../font/Ramaraja-Regular.woff") format("woff");
+    font-family: "Ramaraja";
+    src: url("../font/Ramaraja-Regular.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Cafe24Ssurround';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-family: "Cafe24Ssurround";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff")
+        format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 .wrap {
-  width: 100%;
+    width: 100%;
 }
 
 /* header */
 #header {
-  width: 100%;
-  height: 80px;
-  padding-top: 15px;
+    width: 100%;
+    height: 80px;
+    padding-top: 15px;
 }
 
 #header .h-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
 }
 
 #header .h-inner .h-left {
-
 }
 
 #header .h-inner .h-left01 {
@@ -173,29 +173,29 @@ table {
 }
 
 #header .h-inner .h-left01__text a {
-    font-family: 'Cafe24Ssurround', sans-serif;
+    font-family: "Cafe24Ssurround", sans-serif;
     font-size: 0.7em;
     color: #d39c5b;
 }
 
 #header .h-inner .h-left02__text a {
-    font-family: 'Cafe24Ssurround', sans-serif;
+    font-family: "Cafe24Ssurround", sans-serif;
     font-size: 0.7em;
     color: #d39c5b;
 }
 
 #header .h-inner .h-logo {
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #header .h-inner .h-logo h1 {
-  font-family: "Ramaraja", sans-serif;
-  color: #d39c5b;
-  font-weight: 100;
-  font-size: 2.5em;
+    font-family: "Ramaraja", sans-serif;
+    color: #d39c5b;
+    font-weight: 100;
+    font-size: 2.5em;
 }
 
 #header .h-inner .h-right {
@@ -206,7 +206,7 @@ table {
 }
 
 #header .h-inner .h-right .h-right__text a {
-    font-family: 'Cafe24Ssurround', sans-serif;
+    font-family: "Cafe24Ssurround", sans-serif;
     font-size: 0.7em;
     color: #d39c5b;
 }
@@ -214,7 +214,7 @@ table {
 /* footer */
 #footer {
     width: 100%;
-    background: #573B1B;
+    background: #573b1b;
     height: 100%;
     padding: 30px 0;
 }
@@ -228,20 +228,19 @@ table {
     text-align: center;
 }
 
-#footer .f-inner .f-sns li  {
+#footer .f-inner .f-sns li {
     display: inline;
     margin-right: 10px;
 }
 
-#footer .f-inner .f-sns li:last-child  {
+#footer .f-inner .f-sns li:last-child {
     display: inline;
     margin-right: 0;
 }
 
-#footer .f-inner .f-sns li:first-child  {
+#footer .f-inner .f-sns li:first-child {
     margin-right: 13px;
 }
-
 
 #footer .f-inner .f-site {
     float: right;
@@ -254,16 +253,16 @@ table {
 }
 
 #footer .f-inner .f-address p {
-    font-family: 'Noto Sans KR Light', sans-serif;
-    color: #F2D9BC;
+    font-family: "Noto Sans KR Light", sans-serif;
+    color: #f2d9bc;
 }
 
 #footer .f-inner .f-address address {
-    font-family: 'Noto Sans KR Light', sans-serif;
-    color: #F2D9BC;
+    font-family: "Noto Sans KR Light", sans-serif;
+    color: #f2d9bc;
 }
 
 #footer .f-inner .f-address .copyright {
-    font-family: 'Noto Sans KR Regular', sans-serif;
+    font-family: "Noto Sans KR Regular", sans-serif;
     margin-top: 20px;
 }
