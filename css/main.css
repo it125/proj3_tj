@@ -134,6 +134,8 @@
 }
 
 #section03 .s03-inner .s03-contents {
+    /* width: 80%;
+    margin: 0 auto; */
     position: relative;
     overflow-x: hidden;
     width: 500px;
