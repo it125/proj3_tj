@@ -21,11 +21,12 @@
 
 #section02 .s02-inner .s02-title::after {
     content: '';
-    width: 100%;
-    left: 0;
+    width: 10%;
     height: 1px;
     display: block;
-    position: absolute;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     margin-top: 5px;
     border-bottom: 3px solid #d39c5b;
 }
@@ -97,11 +98,12 @@
 
 #section03 .s03-inner .s03-title::after {
     content: '';
-    width: 100%;
-    left: 0;
+    width: 10%;
     height: 1px;
     display: block;
-    position: absolute;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     margin-top: 5px;
     border-bottom: 3px solid #d39c5b;
 }
